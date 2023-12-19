@@ -98,9 +98,8 @@ class MainActivity : AppCompatActivity() {
         val raza = spinnerRaza.selectedItem.toString().lowercase()
         val clase = spinnerClase.selectedItem.toString().lowercase()
         val estadoVital = spinnerEstadoVital.selectedItem.toString().lowercase()
-        val sentencia = "${raza}_${clase}_${estadoVital}"
-        Log.i("info1","$sentencia")
-        val imagend = when ("${clase}_${raza}_${estadoVital}"){
+        val sentencia = "${clase}_${raza}_${estadoVital}"
+        val imagend = when (sentencia){
             "brujo_humano_anciano" -> R.drawable.brujo_humano_anciano
             "brujo_humano_adulto" -> R.drawable.brujo_humano_adulto
             "brujo_humano_joven" -> R.drawable.brujo_humano_joven
