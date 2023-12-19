@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dimensions activity_main.xml-->
+    <dimen name="SpinnerTamHeigh">48dp</dimen>
+    <dimen name="SpinnerTamWidth">128dp</dimen>
+    <dimen name="EditTextTamHeigh">48dp</dimen>
+    <dimen name="activityMainCompWidth">120dp</dimen>
+</resources>
